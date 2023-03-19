@@ -1,0 +1,49 @@
+.footer-booking {
+    background-color: $background-dark;
+}
+
+.footer-contacts {
+    .section-title {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    @media screen and (max-width: 767px) {
+        height: 496px;
+            background: linear-gradient(rgba(25, 28, 38, 0.8), rgba(25, 28, 38, 0.8)),
+             url(../../images/footer-contacts-bgc.jpg);
+
+        
+        }
+    
+        // @media screen and (min-width: 768px) {
+        //     
+    
+        // }
+    
+        // @media screen and (min-width: 1600px) {
+        //     
+}
+
+.contact-link {
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    margin-bottom: 44px;
+
+    font-style: normal;
+    @include typography (700, 18px, 1.67);
+    letter-spacing: 0.02em;
+    color: $secondary-text-color;
+
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+}
+
+.contact-icon {
+ margin-right: 16px;
+}
+
+// .footer-socials {}

@@ -1,0 +1,39 @@
+.section-subtitle {
+    margin-bottom: 20px;
+
+    font-family: 'Raleway';
+    @include typography (600, 11px, 1.36);
+    text-transform: uppercase;
+    color: #303030;
+
+    &.light {
+        color: rgba(157, 164, 189, 0.6);
+    }
+
+    &.dark {
+        color: #303030;
+    }
+
+    &.white {
+        color: #FFFFFF;
+    }
+}
+
+
+
+
+.section-title {
+    font-family: 'Raleway';
+    @include typography (700, 28px, 1.18);
+    letter-spacing: 0.05em;
+
+    &.light {
+        color: #FFFFFF;
+    }
+
+    &.dark {
+        color: #303030;
+    }
+    
+        
+}
