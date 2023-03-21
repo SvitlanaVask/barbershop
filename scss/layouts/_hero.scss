@@ -9,19 +9,41 @@
 
         }
     
-        // @media screen and (min-width: 768px) {
-        //     
+        @media screen and (min-width: 768px) {
+            background: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)),
+                url(../../images/hero-tab.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
     
-        // }
+        }
     
         // @media screen and (min-width: 1600px) {}
         // 
 
     .section-subtitle {
-        padding-top: 208px;
+        
         letter-spacing: 0.1em;
+        @media screen and (max-width: 767px) {
+            padding-top: 208px;
+        }
+            
+        @media screen and (min-width: 768px) {
+            padding-top: 272px;
+        }
     }  
 }   
+
+.hero-subcontainer {
+    @media screen and (max-width: 767px) {
+        width: 336px;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 360px;
+        margin-left: 120px;
+        margin-right: 90px;
+    }
+}
 
 .hero-name {
     margin-bottom: 20px;
