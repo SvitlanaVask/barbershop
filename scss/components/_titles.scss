@@ -1,7 +1,8 @@
 .section-subtitle {
     margin-bottom: 20px;
+    margin-left: 80px;
 
-    font-family: 'Raleway';
+    font-family: 'Open Sans';
     @include typography (600, 11px, 1.36);
     text-transform: uppercase;
     color: #303030;
@@ -19,12 +20,32 @@
     }
 }
 
+// .section-subtitle::before {
+//     position: absolute;
+//     content: '';
+//     top: 6px;
+//     left: 31px;
+//     width: 60px;
+//     height: 1px;
 
+//     &.light {
+//         background-color: rgba(157, 164, 189, 0.6);
+//     }
+
+//     &.dark {
+//         background-color: #303030;
+//     }
+
+//     &.white {
+//         background-color: #FFFFFF;
+//     }
+
+// }
 
 
 .section-title {
     font-family: 'Raleway';
-    @include typography (700, 28px, 1.18);
+    @include typography (700, 42px, 1.18);
     letter-spacing: 0.05em;
 
     &.light {

@@ -16,31 +16,63 @@
   <body>
     <header>
       <div class="container">
-        <!-- <a href="" class="logo">
-          <svg>
-            <use></use>
+        <a href="" class="logo">
+          <svg class="logo" width="67" height="55">
+            <use href="./images/icons.svg#icon-logo"></use>
           </svg>
-        </a> -->
-        <ul>
-          <li>Instagram</li>
-          <li>Youtube</li>
-        </ul>
-        <div class="header-menu">
-          <ul>
-            <li>About</li>
-            <li>Services and prices</li>
-            <li>Barbers</li>
-            <li>Contacts</li>
+        </a>
+
+        <button class="burger-open">
+          <svg width="40" height="40">
+            <use href="./images/icons.svg#icon-menu-open"></use>
+          </svg>
+        </button>
+
+        <div class="burger-menu is-hidden">
+          <button class="burger-close">
+          <svg width="40" height="40">
+            <use href="./images/icons.svg#icon-menu-close"></use>
+          </svg>
+        </button>
+
+          <div class="header-menu">
+          <ul class="header-menu--list list">
+            <li class="header-menu--item"><a class="header-menu--link link" href="">About</a></li>
+            <li class="header-menu--item"><a class="header-menu--link link" href="">Services and prices</a></li>
+            <li class="header-menu--item"><a class="header-menu--link link" href="">Barbers</a></li>
+            <li class="header-menu--item"><a class="header-menu--link link" href="">Contacts</a></li>
           </ul>
+          </div>
+
+          <div class="header-contacts">
+            <ul class="header-contacts--list list">
+              <li class="header-contacts--item">
+                <a class="header-contacts--link link" href="tel:+380441111111">+38 044 111 11 11</a>
+              </li>
+              <li class="header-contacts--item">
+                <button class="btn" type="button">Online-booking</button>
+              </li>
+            </ul>
+          </div>
+
+          <div class="header-socials">
+            <ul class="header-socials--list list">
+              <li class="header-socials--item">
+                <a class="header-socials--link link" href="">Instagram</a>
+              </li>
+              <li class="header-socials--item">
+                <a class="header-socials--link link" href="">Youtube</a>
+              </li>
+            </ul>
+          </div>
+
         </div>
-        <div class="header-contacts">
-          <ul>
-            <li><a href="">+38 044 111 11 11</a></li>
-            <li>
-              <a href=""><button class="btn" type="button">Online-booking</button></a>
-            </li>
-          </ul>
+
+        <div class="burger-backdrop is-hidden">
+
         </div>
+
+
       </div>
     </header>
     <main>
@@ -48,8 +80,8 @@
       <section class="hero">
         <div class="container">
           <h2 class="section-subtitle light">A hair salon for men in Kyiv</h2>
-          <h1>BarberShop</h1>
-          <p>
+          <h1 class="hero-name">BarberShop</h1>
+          <p class="hero-text">
             We are experts in trendy men’s haircuts. We work quickly, carefully
             and with style.
           </p>
@@ -75,41 +107,73 @@
       </section>
 
       <!-- Services and prices -->
-      <section class="services">
+      <section class="services space">
         <div class="container">
           <h2 class="section-subtitle light">Spend your time with the best masters</h2>
           <h3 class="section-title light">Services and prices</h3>
-          <ul>
-            <li>Men’s haircut</li>
-            <li>Beard trim</li>
-            <li>Mustache trim</li>
-            <li>Straight razor shave</li>
-          </ul>
-          <ul>
-            <li>Trainee’s haircut</li>
-            <li>Haircut under the nozzle</li>
-            <li>Children’s haircut (0-12 y.o.)</li>
-            <li>Camouflage of gray hair</li>
-          </ul>
+          <div class="services-list">
+            <ul class="services-sublist left list">
+              <li class="service-item">Men’s haircut</li>
+              <li class="service-item">Beard trim</li>
+              <li class="service-item">Mustache trim</li>
+              <li class="service-item">Straight razor shave</li>
+            </ul>
+
+            <ul class="prices-sublist left list">
+              <li class="service-item">from 300 uah.</li>
+              <li class="service-item">from 200 uah.</li>
+              <li class="service-item">from 200 uah.</li>
+              <li class="service-item">from 200 uah.</li>
+            </ul>
+
+            <ul class="services-sublist right list">
+              <li class="service-item">Trainee’s haircut</li>
+              <li class="service-item">Haircut under the nozzle</li>
+              <li class="service-item">Children’s haircut (0-12 y.o.)</li>
+              <li class="service-item">Camouflage of gray hair</li>
+            </ul>
+            <ul class="prices-sublist list">
+              <li class="service-item">from 50 uah.</li>
+              <li class="service-item">from 200 uah.</li>
+              <li class="service-item">from 300 uah.</li>
+              <li class="service-item">from 200 uah.</li>
+            </ul>
+          </div>
           <button class="btn" type="button">online-booking</button>
         </div>
       </section>
 
       <!-- Old traditional school -->
-      <section class="benefits">
+      <section class="benefits space">
         <div class="container">
           <h2 class="section-subtitle dark">Old traditional school</h2>
           <h3 class="section-title dark">¿Why people come to us?</h3>
-          <p>
+          <p class="benefits-text">
             Only good things are said about us. But it's better to see and feel
             1 time than read 10 times.
           </p>
 
-          <ul>
-            <li><span>600+</span>Satisfied customers per day</li>
-            <li><span>50+</span>Awards for excellent service</li>
-            <li><span>20+</span>Kyiv’s best barbers</li>
-            <li><span>100+</span>Gifts for regular customers</li>
+          <ul class="benefits-list list">
+            <li class="benefits-item">
+              <span class="benefits-number">600</span>
+              <sup class="benefits-sup">+</sup> 
+              <p class="benefits-subtext"> Satisfied customers per day </p>
+            </li>
+            <li class="benefits-item">
+              <span class="benefits-number">50</span>
+              <sup class="benefits-sup">+</sup> 
+              <p class="benefits-subtext"> Awards for excellent service </p>
+            </li>
+            <li class="benefits-item">
+              <span class="benefits-number">20</span>
+              <sup class="benefits-sup">+</sup> 
+              <p class="benefits-subtext"> Kyiv’s best barbers </p>
+            </li>
+            <li class="benefits-item">
+              <span class="benefits-number">100</span>
+              <sup class="benefits-sup">+</sup> 
+              <p class="benefits-subtext"> Gifts for regular customers </p>
+            </li>
           </ul>
         </div>
       </section>
@@ -313,29 +377,46 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
-        <div class="footer-booking">
+      <div class="container space footer-booking">
+        
           <h3 class="section-title light">Online-booking</h3>
-          <form action="">
+          <form class="footer-form">
+            <label class="form-label" for="name">Name*
+              <input class="form-input" type="text" name="name" id="name">
+            </label>
+
+            <label class="form-label" for="tel">Phone*
+              <input class="form-input" type="tel" name="tel" id="tel">
+            </label>
+
+            <label class="form-label" for="message">Message
+              <input class="form-input" name="message" id="message" >
+            </label>
+
             <button class="btn" type="submit">send</button>
           </form>
-        </div>
-        <div class="footer-contacts space">
+        
+
+      </div>
+      
+      <div class="container footer-contacts space">
+
+        
           <h3 class="section-title light">Contacts</h3>
           <address class="contact-list">
-            <a class="contact-link link" href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0,+7,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.3958107,30.501413,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4c8c951889799:0x58e0259a6e5b738d!8m2!3d50.3958107!4d30.5036017!16s%2Fg%2F11fkdmxmts">
+            <a class="contact-link street link" href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0,+7,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.3958107,30.501413,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4c8c951889799:0x58e0259a6e5b738d!8m2!3d50.3958107!4d30.5036017!16s%2Fg%2F11fkdmxmts">
               <svg class="contact-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-map-pin"></use>
               </svg>
               st. Vasylkivska, 7A Kyiv, 08132
             </a>
-            <a class="contact-link link" href="tel:+380441111111">
+            <a class="contact-link contact link" href="tel:+380441111111">
               <svg class="contact-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-mail"></use>
               </svg>
               +38 044 111 11 11
             </a>
-            <a class="contact-link link" href="mailto:barbershop@email.com">
+            <a class="contact-link contact link" href="mailto:barbershop@email.com">
               <svg class="contact-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
@@ -343,15 +424,20 @@
             </a>
           </address>
           <h2 class="section-subtitle white">Working hours</h2>
-          <p>Every day from 9:00 to 22:00</p>
-        </div>
-        <div class="footer-socials">
-          <ul>
-            <li>Instagram</li>
-            <li>Youtube</li>
+          <p class="working-hours">Every day from 9:00 to 22:00</p>
+        
+
+      </div>
+      
+      <div class="container footer-socials">
+
+        
+          <ul class="footer-socials--list list">
+            <li class="footer-socials--item"><a class="footer-socials--link link" href="">Instagram</a></li>
+            <li class="footer-socials--item"><a class="footer-socials--link link" href="">Youtube</a></li>
           </ul>
-          <span>Copyright 2020</span>
-        </div>
+          <span class="copyright"> &#169;Copyright 2020</span>
+        
       </div>
     </footer>
   </body>
