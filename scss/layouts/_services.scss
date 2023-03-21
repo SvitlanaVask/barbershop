@@ -2,14 +2,28 @@
     
     @media screen and (max-width: 767px) {
     background: linear-gradient(rgba(25, 28, 38, 0.8), rgba(25, 28, 38, 0.8)),
-        url(../../images/prices-bgc.jpg);
+        url(../../images/prices-bgc-mob.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
+        .section-title {
+            font-size: 40px;
+        }
+    }
 
-    .section-title {
-        font-size: 40px;
+
+    @media screen and (min-width: 768px) {
+        background: linear-gradient(rgba(25, 28, 38, 0.8), rgba(25, 28, 38, 0.8)),
+            url(../../images/prices-bgc-tab.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .section-title {
+            font-size: 42px;
+        }
     }
 }
+
 
 // @media screen and (min-width: 768px) {
 //     
@@ -25,21 +39,42 @@
         margin-top: 44px;
         color: #ffffff;
     }
-}
+
 
 .services-list {
     margin-top: 44px;
     background: linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.2) 100%);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: space-between;
     padding: 30px 20px 30px 40px;
 
-    @include typography (400, 14px, 1.43);
+    @media screen and (max-width: 767px) {
+        @include typography (400, 14px, 1.43);
+    }
+
+    @media screen and (min-width: 768px) {
+        @include typography (400, 18px, 1.43);
+    }
+
+    
     letter-spacing: 0.02em;
     color: $secondary-text-color;
+
+
 }
 
+.service-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-art {
+    flex-grow: 1;
+    border-bottom: 1px solid rgba(157, 164, 189, 0.12);
+    margin-left: 12px;
+    margin-right: 12px;
+}
 
 // ======================================== media
 

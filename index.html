@@ -79,30 +79,54 @@
       <!-- Hero -->
       <section class="hero">
         <div class="container">
-          <h2 class="section-subtitle light">A hair salon for men in Kyiv</h2>
-          <h1 class="hero-name">BarberShop</h1>
-          <p class="hero-text">
-            We are experts in trendy men’s haircuts. We work quickly, carefully
-            and with style.
-          </p>
+          <div class="hero-subcontainer">
+            <h2 class="section-subtitle light">A hair salon for men in Kyiv</h2>
+            <h1 class="hero-name">BarberShop</h1>
+            <p class="hero-text">
+              We are experts in trendy men’s haircuts. We work quickly, carefully
+              and with style.
+            </p>
+          </div>
         </div>
       </section>
 
       <!-- About -->
       <section class="about space">
         <div class="container">
-          <h2 class="section-subtitle dark">About</h2>
-          <h3 class="section-title dark">Best Barbershop in your city</h3>
-          <p class="about-text__big">
-            If you want to add more confidence to your image, you should visit
-            us
-          </p>
-          <p class="about-text"> We are a team that never stops at what has been achieved and are
-            thirsty for changes. And when you fall into the hands of our master,
-            you will never be the same again. We are a team that is always "on
-            the same wave" with clients. Therefore, we are always ready to
-            improve everyone who comes to us!</p>
-          <button class="btn" type="button">online-booking</button>
+
+          <div class="about-subcontainer photos">
+            <picture>
+              <source media="(min-width: 1600)" srcset="#">
+              <source media="(min-width: 768)" 
+                srcset="./images/about-us1-tab.jpg 1x, ./images/about-us1-tab-2x.jpg 2x">
+              <img src="./images/about-us1-tab.jpg" alt="">  
+            </picture>
+
+            <picture>
+              <source media="(min-width: 1600)" srcset="#">
+              <source media="(min-width: 768)" 
+                srcset="./images/about-us2-tab.jpg 1x, ./images/about-us2-tab-2x.jpg 2x">
+              <img src="./images/about-us2-tab.jpg" alt="">  
+            </picture>
+
+          </div>
+          <div class="about-subcontainer text">
+            <h2 class="section-subtitle dark">About</h2>
+            <h3 class="section-title dark">Best Barbershop in your city</h3>
+            <p class="about-text__big">
+              If you want to add more confidence to your image, you should visit
+              us
+            </p>
+            <p class="about-text"> We are a team that never stops at what has been achieved and are
+              thirsty for changes. And when you fall into the hands of our master,
+              you will never be the same again. We are a team that is always "on
+              the same wave" with clients. Therefore, we are always ready to
+              improve everyone who comes to us!</p>
+            <button class="btn" type="button">online-booking</button>
+
+          </div>
+
+          
         </div>
       </section>
 
@@ -113,30 +137,49 @@
           <h3 class="section-title light">Services and prices</h3>
           <div class="services-list">
             <ul class="services-sublist left list">
-              <li class="service-item">Men’s haircut</li>
-              <li class="service-item">Beard trim</li>
-              <li class="service-item">Mustache trim</li>
-              <li class="service-item">Straight razor shave</li>
-            </ul>
-
-            <ul class="prices-sublist left list">
-              <li class="service-item">from 300 uah.</li>
-              <li class="service-item">from 200 uah.</li>
-              <li class="service-item">from 200 uah.</li>
-              <li class="service-item">from 200 uah.</li>
+              <li class="service-item">
+                <span class="service-art">Men’s haircut</span>
+                <span class="line-art"></span>
+                <span class="price-art">from 300 uah.</span>
+              </li>
+              <li class="service-item">
+                <span class="service-art">Beard trim</span>
+                <span class="line-art"></span>
+                <span class="price-art">from 200 uah.</span>
+              </li>
+              <li class="service-item">
+                <span class="service-art">Mustache trim</span>
+                <span class="line-art"></span>
+                <span class="price-art">from 200 uah.</span>
+              </li>
+              <li class="service-item">
+                <span class="service-art">Straight razor shave</span>
+                <span class="line-art"></span>
+                <span class="price-art">from 200 uah.</span>
+              </li>
             </ul>
 
             <ul class="services-sublist right list">
-              <li class="service-item">Trainee’s haircut</li>
-              <li class="service-item">Haircut under the nozzle</li>
-              <li class="service-item">Children’s haircut (0-12 y.o.)</li>
-              <li class="service-item">Camouflage of gray hair</li>
-            </ul>
-            <ul class="prices-sublist list">
-              <li class="service-item">from 50 uah.</li>
-              <li class="service-item">from 200 uah.</li>
-              <li class="service-item">from 300 uah.</li>
-              <li class="service-item">from 200 uah.</li>
+              <li class="service-item">
+                <span class="service-art">Trainee’s haircut</span>
+                <span class="line-art"></span>
+                <span class="price-art">from 50 uah.</span>
+              </li>
+              <li class="service-item">
+                <span class="service-art">Haircut under the nozzle</span>
+                <span class="line-art"></span>
+                <span class="price-art">from 200 uah.</span>
+              </li>
+              <li class="service-item">
+                <span class="service-art">Children’s haircut (0-12 y.o.)</span>
+                <span class="line-art"></span>
+                <span class="price-art">from 300 uah.</span>
+              </li>
+              <li class="service-item">
+                <span class="service-art">Camouflage of gray hair</span>
+                <span class="line-art"></span>
+                <span class="price-art">from 200 uah.</span>
+              </li>
             </ul>
           </div>
           <button class="btn" type="button">online-booking</button>
@@ -146,14 +189,19 @@
       <!-- Old traditional school -->
       <section class="benefits space">
         <div class="container">
-          <h2 class="section-subtitle dark">Old traditional school</h2>
-          <h3 class="section-title dark">¿Why people come to us?</h3>
-          <p class="benefits-text">
-            Only good things are said about us. But it's better to see and feel
-            1 time than read 10 times.
-          </p>
 
-          <ul class="benefits-list list">
+          <div class="benefits-descr-container">
+            <h2 class="section-subtitle dark">Old traditional school</h2>
+            <h3 class="section-title dark">¿Why people come to us?</h3>
+            <p class="benefits-text">
+              Only good things are said about us. But it's better to see and feel
+              1 time than read 10 times.
+            </p>
+          </div>
+          
+
+          <div class="benefits-info-container">
+            <ul class="benefits-list list">
             <li class="benefits-item">
               <span class="benefits-number">600</span>
               <sup class="benefits-sup">+</sup> 
@@ -174,7 +222,9 @@
               <sup class="benefits-sup">+</sup> 
               <p class="benefits-subtext"> Gifts for regular customers </p>
             </li>
-          </ul>
+            </ul>
+          </div>
+
         </div>
       </section>
 
@@ -191,7 +241,8 @@
                 <div class="card-thumb">
                   <picture>
                     <source media="(min-width: 1200px)" srcset="#">
-                    <source media="(min-width: 768px)" srcset="#">
+                    <source media="(min-width: 768px)" 
+                      srcset="./images/barber1-tab.jpg 1x, ./images/barber1-tab-2x.jpg 2x">
                     <source media="(max-width: 767px)" 
                       srcset="./images/barber1-mob.jpg 1x, ./images/barber1-mob-2x.jpg 2x">
                     <img src="./images/barber1-mob.jpg" alt="John Smith">
@@ -238,7 +289,8 @@
                 <div class="card-thumb">
                   <picture>
                     <source media="(min-width: 1200px)" srcset="#">
-                    <source media="(min-width: 768px)" srcset="#">
+                    <source media="(min-width: 768px)" 
+                      srcset="./images/barber2-tab.jpg 1x, ./images/barber2-tab-2x.jpg 2x">
                     <source media="(max-width: 767px)" 
                       srcset="./images/barber2-mob.jpg 1x, ./images/barber2-mob-2x.jpg 2x">
                     <img src="./images/barber2-mob.jpg" alt="Michele Doe">
@@ -285,7 +337,8 @@
                 <div class="card-thumb">
                   <picture>
                     <source media="(min-width: 1200px)" srcset="#">
-                    <source media="(min-width: 768px)" srcset="#">
+                    <source media="(min-width: 768px)" 
+                      srcset="./images/barber3-tab.jpg 1x, ./images/barber3-tab-2x.jpg 2x">
                     <source media="(max-width: 767px)" 
                       srcset="./images/barber3-mob.jpg 1x, ./images/barber3-mob-2x.jpg 2x">
                     <img src="./images/barber3-mob.jpg" alt="Alan Black">
@@ -339,36 +392,40 @@
             <li class="photoshots-item">
               <picture>
                     <source media="(min-width: 1200px)" srcset="#">
-                    <source media="(min-width: 768px)" srcset="#">
+                    <source media="(min-width: 768px)" 
+                      srcset="./images/photo1-tab.jpg 1x, ./images/photo1-tab-2x.jpg 2x">
                     <source media="(max-width: 767px)" 
-                      srcset="./images/photo1-mob.jpg 1x, ./images/photo1-mob.jpg-2x.jpg 2x">
+                      srcset="./images/photo1-mob.jpg 1x, ./images/photo1-mob-2x.jpg 2x">
                     <img src="./images/photo1-mob.jpg" alt="photoshot 1">
                   </picture>
             </li>
             <li class="photoshots-item">
               <picture>
                     <source media="(min-width: 1200px)" srcset="#">
-                    <source media="(min-width: 768px)" srcset="#">
+                    <source media="(min-width: 768px)" 
+                      srcset="./images/photo2-tab.jpg 1x, ./images/photo2-tab-2x.jpg 2x">
                     <source media="(max-width: 767px)" 
-                      srcset="./images/photo2-mob.jpg 1x, ./images/photo2-mob.jpg-2x.jpg 2x">
+                      srcset="./images/photo2-mob.jpg 1x, ./images/photo2-mob-2x.jpg 2x">
                     <img src="./images/photo2-mob.jpg" alt="photoshot 2">
                   </picture>
             </li>
             <li class="photoshots-item">
               <picture>
                     <source media="(min-width: 1200px)" srcset="#">
-                    <source media="(min-width: 768px)" srcset="#">
+                    <source media="(min-width: 768px)" 
+                      srcset="./images/photo3-tab.jpg 1x, ./images/photo3-tab-2x.jpg 2x">
                     <source media="(max-width: 767px)" 
-                      srcset="./images/photo3-mob.jpg 1x, ./images/photo3-mob.jpg-2x.jpg 2x">
+                      srcset="./images/photo3-mob.jpg 1x, ./images/photo3-mob-2x.jpg 2x">
                     <img src="./images/photo3-mob.jpg" alt="photoshot 3">
                   </picture>
             </li>
             <li class="photoshots-item">
               <picture>
                     <source media="(min-width: 1200px)" srcset="#">
-                    <source media="(min-width: 768px)" srcset="#">
+                    <source media="(min-width: 768px)" 
+                      srcset="./images/photo4-tab.jpg 1x, ./images/photo4-tab-2x.jpg 2x">
                     <source media="(max-width: 767px)" 
-                      srcset="./images/photo4-mob.jpg 1x, ./images/photo4-mob.jpg-2x.jpg 2x">
+                      srcset="./images/photo4-mob.jpg 1x, ./images/photo4-mob-2x.jpg 2x">
                     <img src="./images/photo4-mob.jpg" alt="photoshot 4">
                   </picture>
             </li>
@@ -376,16 +433,18 @@
         </div>
       </section>
     </main>
+
+    <!-- Footer -->
     <footer class="footer">
       <div class="container space footer-booking">
         
           <h3 class="section-title light">Online-booking</h3>
           <form class="footer-form">
-            <label class="form-label" for="name">Name*
+            <label class="form-label name" for="name">Name*
               <input class="form-input" type="text" name="name" id="name">
             </label>
 
-            <label class="form-label" for="tel">Phone*
+            <label class="form-label tel" for="tel">Phone*
               <input class="form-input" type="tel" name="tel" id="tel">
             </label>
 
@@ -399,45 +458,47 @@
 
       </div>
       
-      <div class="container footer-contacts space">
+      <div class="container footer-contacts space">        
+        <h3 class="section-title light">Contacts</h3>
 
-        
-          <h3 class="section-title light">Contacts</h3>
-          <address class="contact-list">
-            <a class="contact-link street link" href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0,+7,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.3958107,30.501413,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4c8c951889799:0x58e0259a6e5b738d!8m2!3d50.3958107!4d30.5036017!16s%2Fg%2F11fkdmxmts">
-              <svg class="contact-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-map-pin"></use>
-              </svg>
-              st. Vasylkivska, 7A Kyiv, 08132
-            </a>
-            <a class="contact-link contact link" href="tel:+380441111111">
-              <svg class="contact-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-mail"></use>
-              </svg>
-              +38 044 111 11 11
-            </a>
-            <a class="contact-link contact link" href="mailto:barbershop@email.com">
-              <svg class="contact-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-phone"></use>
-              </svg>
-              barbershop@email.com
-            </a>
-          </address>
-          <h2 class="section-subtitle white">Working hours</h2>
-          <p class="working-hours">Every day from 9:00 to 22:00</p>
-        
+        <ul class="contact-subsection list">
+          <li class="contact-section">
+            <address class="contact-list">
+              <a class="contact-link street link" href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0,+7,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.3958107,30.501413,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4c8c951889799:0x58e0259a6e5b738d!8m2!3d50.3958107!4d30.5036017!16s%2Fg%2F11fkdmxmts">
+                <svg class="contact-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-map-pin"></use>
+                </svg>
+                st. Vasylkivska, 7A Kyiv, 08132
+              </a>
+              <a class="contact-link contact link" href="tel:+380441111111">
+                <svg class="contact-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-mail"></use>
+                </svg>
+                +38 044 111 11 11
+              </a>
+              <a class="contact-link contact link" href="mailto:barbershop@email.com">
+                <svg class="contact-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+                barbershop@email.com
+              </a>
+            </address>
+          </li>
+
+          <li class="contact-section">
+            <h2 class="section-subtitle white">Working hours</h2>
+            <p class="working-hours">Every day from 9:00 to 22:00</p>
+          </li>
+        </ul>
 
       </div>
       
-      <div class="container footer-socials">
-
-        
-          <ul class="footer-socials--list list">
-            <li class="footer-socials--item"><a class="footer-socials--link link" href="">Instagram</a></li>
-            <li class="footer-socials--item"><a class="footer-socials--link link" href="">Youtube</a></li>
-          </ul>
-          <span class="copyright"> &#169;Copyright 2020</span>
-        
+      <div class="container footer-socials">        
+        <ul class="footer-socials--list list">
+          <li class="footer-socials--item"><a class="footer-socials--link link" href="">Instagram</a></li>
+          <li class="footer-socials--item"><a class="footer-socials--link link" href="">Youtube</a></li>
+        </ul>
+        <span class="copyright"> &#169;Copyright 2020</span>        
       </div>
     </footer>
   </body>

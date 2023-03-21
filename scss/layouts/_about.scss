@@ -1,16 +1,51 @@
+.about .container {
+    @media screen and (min-width: 767px) {
+        display: flex;
+    }
+
+    .btn {
+        color: #303030;
+
+        @media screen and (min-width: 768px) {
+            display: inline-block;
+        }
+    }
+}
+
+.about-subcontainer.photos {
+    @media screen and (max-width: 767px) {
+        display: none;
+    } 
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 330px;
+    }
+}
+
+.about-subcontainer.text {
+
+    @media screen and (min-width: 768px) {     
+       width: 330px;
+       margin-left: 30px;
+    }    
+}
+
 .about .section-title {
     font-size: 28px;
 }
 
 .about-text {
+    @include typography (400, 14px, 1.86);
     margin-bottom: 20px;
-    line-height: 1.86;
     letter-spacing: 0.02em;
 
     &__big {
         margin-top: 20px;
         margin-bottom: 40px;
-        font-size: 16px;
-        line-height: 1.62;
+        @include typography (400, 16px, 1.62);
+        
     }
 }

@@ -1,0 +1,79 @@
+.footer-booking {
+    background-color: $background-dark;
+
+    .section-title {
+        margin-bottom: 44px;
+        text-align: center;
+    }
+}
+
+.footer-form {
+
+    @include typography (600, 11px, 1.37);
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.4);
+
+
+
+    .btn {
+        display: block;
+        
+        margin-top: 44px;
+        width: 160px;
+        color: #ffffff;
+
+        @media screen and (max-width: 767px) {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media screen and (min-width: 768px) {
+            display: inline-block;
+        }
+    }
+}
+
+.form-label {
+    transition: color 250ms linear;
+    
+    @media screen and (min-width: 768px) {
+        &.name, &.tel {
+            display: inline-block;
+            width: calc(50% - 17px);
+            // margin: 15px;
+        }
+
+        &.name {
+            margin-right: 30px;
+        }
+    }
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    margin-bottom: 44px;
+    border: 0;
+    border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+    background-color: transparent;
+    outline: none;
+
+    transition: border 250ms linear;
+
+    
+}
+
+
+.form-label:hover,
+.form-label:focus {
+    color: #ffffff;
+
+}
+
+.form-label:hover .form-input,
+.form-label:focus .form-input {
+    border-bottom: 1px solid #ffffff;
+
+}
