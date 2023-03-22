@@ -22,16 +22,19 @@
             font-size: 42px;
         }
     }
+
+    @media screen and (min-width: 1200px) {
+        background: linear-gradient(rgba(25, 28, 38, 0.8), rgba(25, 28, 38, 0.8)),
+            url(../../images/prices-bgc-desk.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        
+    }
 }
 
 
-// @media screen and (min-width: 768px) {
-//     
 
-// }
-
-// @media screen and (min-width: 1600px) {}
-// 
     .btn {
         display: block;
         margin-left: auto;
@@ -43,11 +46,12 @@
 
 .services-list {
     margin-top: 44px;
-    background: linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.2) 100%);
-    // display: flex;
-    // flex-wrap: wrap;
-    // justify-content: space-between;
     padding: 30px 20px 30px 40px;
+
+    @media screen and (max-width: 1199px) {
+        background: linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.2) 100%);
+    }
+    
 
     @media screen and (max-width: 767px) {
         @include typography (400, 14px, 1.43);
@@ -57,10 +61,25 @@
         @include typography (400, 18px, 1.43);
     }
 
+
+
     
     letter-spacing: 0.02em;
     color: $secondary-text-color;
 
+    @media screen and (min-width: 768px) {
+        display: flex;
+        gap: 30px;
+        
+    }
+
+
+}
+
+.services-sublist {
+    @media screen and (min-width: 768px) {
+        width: calc(50% - 30px);
+    }
 
 }
 
@@ -83,6 +102,20 @@
 }
 
 .services-sublist.left {
-    margin-bottom: 20px;
+    @media screen and (max-width: 1199px) {
+        margin-bottom: 20px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding: 30px 20px;
+        background: linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.2) 100%);
+    }
+}
+
+.services-sublist.right {
+    @media screen and (min-width: 1200px) {
+        padding: 30px 20px;
+        background: linear-gradient(180deg, #090B13 0%, rgba(9, 11, 19, 0.2) 100%);    
+    }
 }
 

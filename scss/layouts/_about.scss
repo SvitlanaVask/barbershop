@@ -23,6 +23,14 @@
         gap: 30px;
         width: 330px;
     }
+
+    @media screen and (min-width: 1200px) {
+        flex-direction: row;
+        height: 100%;
+        gap: 30px;
+        width: 570px;
+    }
+
 }
 
 .about-subcontainer.text {
@@ -30,7 +38,12 @@
     @media screen and (min-width: 768px) {     
        width: 330px;
        margin-left: 30px;
-    }    
+    }   
+    
+    @media screen and (min-width: 1200px) {
+        width: 470px;
+        margin-left: 30px;
+    }
 }
 
 .about .section-title {

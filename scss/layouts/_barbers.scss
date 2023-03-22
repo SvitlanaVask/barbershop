@@ -2,7 +2,7 @@
     background-color: $background-accent;
 
     .container {
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 768px) and (max-width: 1199px) {
             padding-left: 120px;
             padding-right: 120px;
         }
@@ -14,11 +14,23 @@
     }
 }
 
+.barbers-list {
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        margin: -15px;
+    }
+}
+
 .barbers-item {
     @media screen and (max-width: 1199px) {
         &:not(:last-child) {
             margin-bottom: 64px;
         }
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: calc(100%/3 - 30px);
+        margin: 15px;
     }
 }
 

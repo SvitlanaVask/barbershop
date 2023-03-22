@@ -1,9 +1,7 @@
 .photoshots {
     .section-subtitle {
         margin-bottom: 71px;
-    }
-
-        
+    }       
 }
 
 .photoshots-list {
@@ -12,6 +10,8 @@
         flex-wrap: wrap;
         margin: -15px;
     }
+
+    
 }
 
 .photoshots-item {
@@ -23,8 +23,12 @@
     }
 
     @media screen and (min-width: 768px) {
-        
         width: calc(50% - 30px);
         margin: 15px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: calc(25% - 30px);
+        // margin: 15px;
     }
 }
