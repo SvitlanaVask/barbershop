@@ -1,13 +1,13 @@
-.footer-flex-container {
+.section-flex-container {
     
 
     @media screen and (min-width: 1200px) {
         width: 1200px;
         margin-left: auto;
         margin-right: auto;
-        padding-left: 15px;
-        padding-right: 15px;
-        background-color: $background-dark;
+        // padding-left: 15px;
+        // padding-right: 15px;
+        // background-color: $background-dark;
         
         display: flex;
     }

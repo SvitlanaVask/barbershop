@@ -1,6 +1,7 @@
 .section-subtitle {
+    display: flex;
     margin-bottom: 20px;
-    margin-left: 80px;
+    align-items: center;
 
     font-family: 'Open Sans';
     @include typography (600, 11px, 1.36);
@@ -20,27 +21,15 @@
     }
 }
 
-// .section-subtitle::before {
-//     position: absolute;
-//     content: '';
-//     top: 6px;
-//     left: 31px;
-//     width: 60px;
-//     height: 1px;
+.section-subtitle::before {
+    content: '';
+    width: 60px;
+    height: 1px;
+    display: block;   
+    margin-right: 20px;
 
-//     &.light {
-//         background-color: rgba(157, 164, 189, 0.6);
-//     }
-
-//     &.dark {
-//         background-color: #303030;
-//     }
-
-//     &.white {
-//         background-color: #FFFFFF;
-//     }
-
-// }
+    background-color: currentColor;
+}
 
 
 .section-title {

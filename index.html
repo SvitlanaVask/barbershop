@@ -14,34 +14,25 @@
     <title>BarberShop</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
-        <a href="" class="logo">
-          <svg class="logo" width="67" height="55">
-            <use href="./images/icons.svg#icon-logo"></use>
-          </svg>
-        </a>
 
-        <button class="burger-open">
-          <svg width="40" height="40">
-            <use href="./images/icons.svg#icon-menu-open"></use>
-          </svg>
-        </button>
-
-        <div class="burger-menu is-hidden">
-          <button class="burger-close">
-          <svg width="40" height="40">
-            <use href="./images/icons.svg#icon-menu-close"></use>
-          </svg>
-        </button>
+        <div class="header-subcontainer">
+          <a href="./index.html" class="logo">
+            <svg class="icon-logo" width="67" height="55">
+              <use href="./images/icons.svg#icon-logo"></use>
+            </svg>
+          </a>
 
           <div class="header-menu">
-          <ul class="header-menu--list list">
-            <li class="header-menu--item"><a class="header-menu--link link" href="">About</a></li>
-            <li class="header-menu--item"><a class="header-menu--link link" href="">Services and prices</a></li>
-            <li class="header-menu--item"><a class="header-menu--link link" href="">Barbers</a></li>
-            <li class="header-menu--item"><a class="header-menu--link link" href="">Contacts</a></li>
-          </ul>
+              <nav class="header-navigation">
+                <ul class="header-menu--list list">
+                  <li class="header-menu--item"><a class="header-menu--link link" href="#about">About</a></li>
+                  <li class="header-menu--item"><a class="header-menu--link link" href="#services">Services and prices</a></li>
+                  <li class="header-menu--item"><a class="header-menu--link link" href="#barbers">Barbers</a></li>
+                  <li class="header-menu--item"><a class="header-menu--link link" href="#contacts">Contacts</a></li>
+                </ul>
+              </nav>
           </div>
 
           <div class="header-contacts">
@@ -54,17 +45,21 @@
               </li>
             </ul>
           </div>
+        </div>
 
-          <div class="header-socials">
-            <ul class="header-socials--list list">
-              <li class="header-socials--item">
-                <a class="header-socials--link link" href="">Instagram</a>
-              </li>
-              <li class="header-socials--item">
-                <a class="header-socials--link link" href="">Youtube</a>
-              </li>
-            </ul>
-          </div>
+
+        <button class="burger-open">
+          <svg width="40" height="40">
+            <use href="./images/icons.svg#icon-menu-open"></use>
+          </svg>
+        </button>
+
+        <div class="burger-menu ">
+          <button class="burger-close">
+            <svg width="40" height="40">
+              <use href="./images/icons.svg#icon-menu-close"></use>
+            </svg>
+          </button>          
 
         </div>
 
@@ -79,6 +74,18 @@
       <!-- Hero -->
       <section class="hero">
         <div class="container">
+          
+          <div class="hero-socials">
+            <ul class="hero-socials--list list">
+              <li class="hero-socials--item">
+                <a class="hero-socials--link link" target="_blank" rel="noopener noreferrer nofollow" href="">Instagram</a>
+              </li>
+              <li class="hero-socials--item">
+                <a class="hero-socials--link link" target="_blank" rel="noopener noreferrer nofollow" href="">Youtube</a>
+              </li>
+            </ul>
+          </div>
+
           <div class="hero-subcontainer">
             <h2 class="section-subtitle light">A hair salon for men in Kyiv</h2>
             <h1 class="hero-name">BarberShop</h1>
@@ -87,11 +94,13 @@
               and with style.
             </p>
           </div>
+
+
         </div>
       </section>
 
       <!-- About -->
-      <section class="about space">
+      <section class="about space" id="about">
         <div class="container">
 
           <div class="about-subcontainer photos">
@@ -133,54 +142,46 @@
       </section>
 
       <!-- Services and prices -->
-      <section class="services space">
+      <section class="services space" id="services">
         <div class="container">
           <h2 class="section-subtitle light">Spend your time with the best masters</h2>
           <h3 class="section-title light">Services and prices</h3>
           <div class="services-list">
             <ul class="services-sublist left list">
               <li class="service-item">
-                <span class="service-art">Men’s haircut</span>
-                <span class="line-art"></span>
-                <span class="price-art">from 300 uah.</span>
+                <p class="service-text">Men’s haircut</p>
+                <p class="service-text">from 300 uah.</p>
               </li>
               <li class="service-item">
-                <span class="service-art">Beard trim</span>
-                <span class="line-art"></span>
-                <span class="price-art">from 200 uah.</span>
+                <p class="service-text">Beard trim</p>
+                <p class="service-text">from 200 uah.</p>
               </li>
               <li class="service-item">
-                <span class="service-art">Mustache trim</span>
-                <span class="line-art"></span>
-                <span class="price-art">from 200 uah.</span>
+                <p class="service-text">Mustache trim</p>
+                <p class="service-text">from 200 uah.</p>
               </li>
               <li class="service-item">
-                <span class="service-art">Straight razor shave</span>
-                <span class="line-art"></span>
-                <span class="price-art">from 200 uah.</span>
+                <p class="service-text">Straight razor shave</p>
+                <p class="service-text">from 200 uah.</p>
               </li>
             </ul>
 
             <ul class="services-sublist right list">
               <li class="service-item">
-                <span class="service-art">Trainee’s haircut</span>
-                <span class="line-art"></span>
-                <span class="price-art">from 50 uah.</span>
+                <p class="service-text">Trainee’s haircut</p>
+                <p class="service-text">from 50 uah.</p>
               </li>
               <li class="service-item">
-                <span class="service-art">Haircut under the nozzle</span>
-                <span class="line-art"></span>
-                <span class="price-art">from 200 uah.</span>
+                <p class="service-text">Haircut under the nozzle</p>
+                <p class="service-text">from 200 uah.</p>
               </li>
               <li class="service-item">
-                <span class="service-art">Children’s haircut (0-12 y.o.)</span>
-                <span class="line-art"></span>
-                <span class="price-art">from 300 uah.</span>
+                <p class="service-text">Children’s haircut (0-12 y.o.)</p>
+                <p class="service-text">from 300 uah.</p>
               </li>
               <li class="service-item">
-                <span class="service-art">Camouflage of gray hair</span>
-                <span class="line-art"></span>
-                <span class="price-art">from 200 uah.</span>
+                <p class="service-text">Camouflage of gray hair</p>
+                <p class="service-text">from 200 uah.</p>
               </li>
             </ul>
           </div>
@@ -189,7 +190,7 @@
       </section>
 
       <!-- Old traditional school -->
-      <section class="benefits space">
+      <section class="benefits space" id="benefits">
         <div class="container">
 
           <div class="benefits-descr-container">
@@ -230,7 +231,7 @@
       </section>
 
       <!-- Our barbers -->
-      <section class="barbers space">
+      <section class="barbers space" id="barbers">
         <div class="container">
           <!-- <div class="decorative-line"> -->
             <h2 class="section-subtitle dark">For true enjoyers of the atmosphere</h2>
@@ -389,7 +390,7 @@
       </section>
 
       <!-- In Latin, "barba" means "beard" -->
-      <section class="photoshots space">
+      <section class="photoshots space" id="photoshots">
         <div class="container">
           <h2 class="section-subtitle dark">In Latin, "barba" means "beard"</h2>
           <ul class="photoshots-list list">
@@ -440,42 +441,39 @@
           </ul>
         </div>
       </section>
-    </main>
 
-    <!-- Footer -->
-    <footer class="footer">
+      <div class="section-flex-container">
 
-      <div class="footer-flex-container">
-
-        <div class="container footer-booking space">
+        <!-- Online-booking -->
+        <section class="online-booking space" id="online-booking">
           
-            <h3 class="section-title light">Online-booking</h3>
-            <form class="footer-form">
-              <label class="form-label name" for="name">Name*
-                <input class="form-input" type="text" name="name" id="name">
-              </label>
+          <h3 class="section-title light">Online-booking</h3>
+          <form class="booking-form">
+            <label class="form-label name" for="name">Name*
+              <input class="form-input" type="text" name="name" id="name">
+            </label>
 
-              <label class="form-label tel" for="tel">Phone*
-                <input class="form-input" type="tel" name="tel" id="tel">
-              </label>
+            <label class="form-label tel" for="tel">Phone*
+              <input class="form-input" type="tel" name="tel" id="tel">
+            </label>
 
-              <label class="form-label" for="message">Message
-                <input class="form-input" name="message" id="message" >
-              </label>
+            <label class="form-label" for="message">Message
+              <input class="form-input" name="message" id="message" >
+            </label>
 
-              <button class="btn" type="submit">send</button>
-            </form>
-          
+            <button class="btn" type="submit">send</button>
+          </form>   
 
-        </div>
+        </section>
         
-        <div class="container footer-contacts space">        
+        <!-- Contacts -->
+        <section class="contacts space" id="contacts">        
           <h3 class="section-title light">Contacts</h3>
 
           <ul class="contact-subsection list">
             <li class="contact-section">
               <address class="contact-list">
-                <a class="contact-link street link" href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0,+7,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.3958107,30.501413,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4c8c951889799:0x58e0259a6e5b738d!8m2!3d50.3958107!4d30.5036017!16s%2Fg%2F11fkdmxmts">
+                <a class="contact-link street link" target="_blank" rel="noopener noreferrer nofollow" href="https://goo.gl/maps/ufvPgcDeM85FPWHw8">
                   <svg class="contact-icon" width="24" height="24">
                     <use href="./images/icons.svg#icon-map-pin"></use>
                   </svg>
@@ -502,14 +500,18 @@
             </li>
           </ul>
 
-        </div>
+        </section>
 
-      </div>      
-      
+      </div>       
+    
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
       <div class="container footer-socials">        
         <ul class="footer-socials--list list">
-          <li class="footer-socials--item"><a class="footer-socials--link link" href="">Instagram</a></li>
-          <li class="footer-socials--item"><a class="footer-socials--link link" href="">Youtube</a></li>
+          <li class="footer-socials--item"><a class="footer-socials--link link" target="_blank" rel="noopener noreferrer nofollow" href="">Instagram</a></li>
+          <li class="footer-socials--item"><a class="footer-socials--link link" target="_blank" rel="noopener noreferrer nofollow" href="">Youtube</a></li>
         </ul>
         <span class="copyright"> &#169;Copyright 2020</span>        
       </div>

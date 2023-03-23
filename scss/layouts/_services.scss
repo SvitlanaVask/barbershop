@@ -86,16 +86,23 @@
 .service-item {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 
-.line-art {
+.service-item::before {
+    content: '';
     flex-grow: 1;
-    border-bottom: 1px solid rgba(157, 164, 189, 0.12);
+    height: 1px;
     margin-left: 12px;
     margin-right: 12px;
+    background-color: rgba(157, 164, 189, 0.12);
 }
 
-// ======================================== media
+.service-text:first-child {
+    order: -1;
+}
+
+
 
 .service-item:not(:last-child) {
     padding-bottom: 20px;

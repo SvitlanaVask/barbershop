@@ -1,4 +1,4 @@
-.footer-booking {
+.online-booking {
     background-color: $background-dark;
 
     .section-title {
@@ -7,7 +7,7 @@
     }
 }
 
-.footer-form {
+.booking-form {
 
     @include typography (600, 11px, 1.37);
     font-weight: 600;
