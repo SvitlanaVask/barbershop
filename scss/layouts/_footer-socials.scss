@@ -1,3 +1,7 @@
+.footer {
+    background-color: #ffffff;
+}
+
 .container.footer-socials {
 
     padding-top: 44px;
@@ -6,7 +10,7 @@
     @include typography (600, 11px, 1.36);
     letter-spacing: 0.2em;
 
-    background-color: #ffffff;
+    
 }
 
 .footer-socials--list {

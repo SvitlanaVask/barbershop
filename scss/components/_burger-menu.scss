@@ -56,7 +56,7 @@
 
 .burger-backdrop {
     // pointer-events: none;
-    // overflow: hidden;
+    
 
     @media screen and (max-width: 767px) {
         position: fixed;
@@ -82,7 +82,7 @@
 
 .burger-menu-back {
     padding-left: 40px;
-
+    overflow: auto;
 
     @media screen and (max-width: 767px) {
         position: fixed;
@@ -112,6 +112,7 @@
 
 .burger-backdrop.is-hidden .burger-menu-back {
     display: none;
+    pointer-events: none;
 }
 
 .burger-menu--list {
