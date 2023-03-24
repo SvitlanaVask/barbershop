@@ -61,26 +61,19 @@
         @include typography (400, 18px, 1.43);
     }
 
-
-
-    
     letter-spacing: 0.02em;
     color: $secondary-text-color;
 
     @media screen and (min-width: 1200px) {
         display: flex;
-        gap: 30px;
-        
+        gap: 30px;        
     }
-
-
 }
 
 .services-sublist {
     @media screen and (min-width: 1200px) {
         width: calc(50% - 30px);
     }
-
 }
 
 .service-item {
