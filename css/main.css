@@ -502,6 +502,7 @@ img {
 
 .header-contacts {
   margin-left: auto;
+  margin-right: 20px;
   -ms-flex-item-align: center;
       align-self: center;
 }
