@@ -653,8 +653,8 @@ img {
 @media screen and (max-width: 767px) {
   .hero-subcontainer {
     width: 336px;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 28, 38, 0.2)), to(rgba(25, 28, 38, 0.2))), url(./images/hero-mob.jpg);
-    background: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url(./images/hero-mob.jpg);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 28, 38, 0.2)), to(rgba(25, 28, 38, 0.2))), url(../images/hero-mob.jpg);
+    background: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url(../images/hero-mob.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -664,8 +664,8 @@ img {
     width: 360px;
     padding-left: 120px;
     padding-right: 90px;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 28, 38, 0.2)), to(rgba(25, 28, 38, 0.2))), url(./images/hero-tab.jpg);
-    background: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url(./images/hero-tab.jpg);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 28, 38, 0.2)), to(rgba(25, 28, 38, 0.2))), url(../images/hero-tab.jpg);
+    background: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url(../images/hero-tab.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -673,8 +673,8 @@ img {
 @media screen and (min-width: 1200px) {
   .hero-subcontainer {
     width: 444px;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 28, 38, 0.2)), to(rgba(25, 28, 38, 0.2))), url(./images/hero-desk.jpg);
-    background: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url(./images/hero-desk.jpg);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 28, 38, 0.2)), to(rgba(25, 28, 38, 0.2))), url(../images/hero-desk.jpg);
+    background: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url(../images/hero-desk.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -779,8 +779,8 @@ img {
 
 @media screen and (max-width: 767px) {
   .services {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 28, 38, 0.8)), to(rgba(25, 28, 38, 0.8))), url(../../images/prices-bgc-mob.jpg);
-    background: linear-gradient(rgba(25, 28, 38, 0.8), rgba(25, 28, 38, 0.8)), url(../../images/prices-bgc-mob.jpg);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 28, 38, 0.8)), to(rgba(25, 28, 38, 0.8))), url(../images/prices-bgc-mob.jpg);
+    background: linear-gradient(rgba(25, 28, 38, 0.8), rgba(25, 28, 38, 0.8)), url(../images/prices-bgc-mob.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -790,8 +790,8 @@ img {
 }
 @media screen and (min-width: 768px) {
   .services {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 28, 38, 0.8)), to(rgba(25, 28, 38, 0.8))), url(../../images/prices-bgc-tab.jpg);
-    background: linear-gradient(rgba(25, 28, 38, 0.8), rgba(25, 28, 38, 0.8)), url(../../images/prices-bgc-tab.jpg);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 28, 38, 0.8)), to(rgba(25, 28, 38, 0.8))), url(../images/prices-bgc-tab.jpg);
+    background: linear-gradient(rgba(25, 28, 38, 0.8), rgba(25, 28, 38, 0.8)), url(../images/prices-bgc-tab.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -801,8 +801,8 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .services {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 28, 38, 0.8)), to(rgba(25, 28, 38, 0.8))), url(../../images/prices-bgc-desk.jpg);
-    background: linear-gradient(rgba(25, 28, 38, 0.8), rgba(25, 28, 38, 0.8)), url(../../images/prices-bgc-desk.jpg);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 28, 38, 0.8)), to(rgba(25, 28, 38, 0.8))), url(../images/prices-bgc-desk.jpg);
+    background: linear-gradient(rgba(25, 28, 38, 0.8), rgba(25, 28, 38, 0.8)), url(../images/prices-bgc-desk.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -1281,8 +1281,8 @@ img {
     padding-right: 31px;
     margin-left: auto;
     margin-right: auto;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 28, 38, 0.8)), to(rgba(25, 28, 38, 0.8))), url(../../images/footer-contacts-bgc-mob.jpg);
-    background: linear-gradient(rgba(25, 28, 38, 0.8), rgba(25, 28, 38, 0.8)), url(../../images/footer-contacts-bgc-mob.jpg);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 28, 38, 0.8)), to(rgba(25, 28, 38, 0.8))), url(../images/footer-contacts-bgc-mob.jpg);
+    background: linear-gradient(rgba(25, 28, 38, 0.8), rgba(25, 28, 38, 0.8)), url(../images/footer-contacts-bgc-mob.jpg);
   }
 }
 @media screen and (min-width: 768px) {
@@ -1292,8 +1292,8 @@ img {
     padding-right: 39px;
     margin-left: auto;
     margin-right: auto;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 28, 38, 0.8)), to(rgba(25, 28, 38, 0.8))), url(../../images/footer-contacts-bgc-tab.jpg);
-    background: linear-gradient(rgba(25, 28, 38, 0.8), rgba(25, 28, 38, 0.8)), url(../../images/footer-contacts-bgc-tab.jpg);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 28, 38, 0.8)), to(rgba(25, 28, 38, 0.8))), url(../images/footer-contacts-bgc-tab.jpg);
+    background: linear-gradient(rgba(25, 28, 38, 0.8), rgba(25, 28, 38, 0.8)), url(../images/footer-contacts-bgc-tab.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1301,8 +1301,8 @@ img {
     width: 50%;
     padding-left: 100px;
     padding-right: 15px;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 28, 38, 0.8)), to(rgba(25, 28, 38, 0.8))), url(../../images/footer-contacts-bgc-desk.jpg);
-    background: linear-gradient(rgba(25, 28, 38, 0.8), rgba(25, 28, 38, 0.8)), url(../../images/footer-contacts-bgc-desk.jpg);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 28, 38, 0.8)), to(rgba(25, 28, 38, 0.8))), url(../images/footer-contacts-bgc-desk.jpg);
+    background: linear-gradient(rgba(25, 28, 38, 0.8), rgba(25, 28, 38, 0.8)), url(../images/footer-contacts-bgc-desk.jpg);
   }
 }
 
